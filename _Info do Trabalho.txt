@@ -1,0 +1,15 @@
+Disciplina: Desenvolvimento Web
+Acadêmico: Gustavo Mafra Knoblauch
+
+Sobre o trabalho:
+	
+     Minha ideia foi fazer um site de compartilhamento de beats 
+(batidas) de todos os tipos, rap, trap, eletrônica, etc. Cada u-
+suário poderia postar seus beats, gratuitos ou pagos, para vender 
+ou serem baixados.
+     Fiz um "começo" do site por enquanto. O nome "Beeats" com dois "e"
+é um trocadilho com "beat" (batida) e "bee" (abelha). As cores dos site
+foram escolhidas com base no estilo Synth Wave que tem um estilo "retrô"
+dos anos oitenta, mas é um estilo de música eletrônica produzida atual-
+mente. 
+ A página que deveria ser o index é "beeats.php".  

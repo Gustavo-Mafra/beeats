@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: yu-mincho;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url('imagens/bg.png');
+    background-size: 100%;
+    /*background-color: #39154C;*/
+}
+
+hr{
+    border: 2px solid rgb(0, 247, 255);
+    box-shadow: 2px 2px 2px #FF009A;
+}
+p{
+    color: #FEFF42;
+    font-size: 20px;
+    padding-left: 1%;
+}
+h1{
+    text-shadow: 2px 2px 2px  rgb(0, 247, 255); 
+    text-align: center;
+    color:  #FEFF42;
+
+}
+h2{
+    text-shadow: 1px 1px 1px  rgb(0, 247, 255); 
+   text-align: center;
+   color: #FF009A;
+}
+h3 a{
+    text-shadow: 1px 1px 1px  rgb(0, 247, 255); 
+    
+    color: #FF009A;
+    text-decoration: none;    
+}
+h3 a:hover{
+    color: rgb(0, 247, 255);
+    text-shadow: 1px 1px 1px #FF009A;
+    text-decoration: none;
+}
+
+
+.navbar{
+    border: 1px solid #FEFF42;
+    background-image: url('imagens/navbg2.png');
+    /*background-size: 100%;*/
+   /*background-color: #3C0036;*/
+   
+    
+}
+
+.navbar ul{
+    list-style-type: none;
+    
+}
+.navbar ul li a{
+    color: #FF7F30;
+}
+.navbar ul li a:hover{
+    color: #FF009A;
+}
+
+.card div div h5 {
+    font-size: 20px;
+}
+a .card{
+    color: #FF009A;
+    text-decoration: none;
+}
+a .card:hover{
+    color: rgb(0, 247, 255);
+    text-decoration: none;
+}
+.card div div p{
+    font-size: 10px;
+}  
+table tr td{
+    padding-left: 50px;
+    padding-right: 10px;
+    
+} 
+table tr td .card .row .col-md-8 div{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+h3{
+    
+    font-size: 35px;
+    text-shadow: 1px 1px 1px  rgb(0, 247, 255);    
+    color: #FF009A;
+    text-decoration: none;  
+    display: flex; 
+}
+h3:hover{    
+    color: rgb(0, 247, 255);
+    text-shadow: 1px 1px 1px #FF009A;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;   
+}
+a:hover{
+    text-decoration: none; 
+    color: #FF009A; 
+}
+.prod{ 
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    height: 700px;
+    width: 100%;
+    min-width: 600px;
+}
+.center{
+    float: center;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+#bio{
+    color: #FF009A;
+    padding-left: 10px;
+}
+.beat-info{
+    margin-top: 25px;
+    margin-left: 5%;
+    
+}
+#beatList tr td{
+    padding: 0px 30px 0px 0px;
+    
+}
+#beatList tr td div h3 {
+    font-size: 25px;
+}
+#beatList tr td div h3 a{
+    font-size: 25px;
+}
+.socialMedia{
+    display: flex;
+}
+.insta-icon{    
+    height: 20px;
+}
+#insta-link a{
+    
+    font-size: 20px;
+    text-shadow: 1px 1px 1px  rgb(0, 247, 255);    
+    color: #FF009A;
+    text-decoration: none;  
+    display: flex; 
+}
+#insta-link a:hover{    
+    color: rgb(0, 247, 255);
+    text-shadow: 1px 1px 1px #FF009A;
+    text-decoration: none;
+}
+.prod-page{
+    padding-left: 1%;
+    
+}
+.title{
+    color: #FEFF42;
+    font-size: 30px;
+    padding-left: 1%;
+}
+.link{
+    
+    font-size: 30px;
+    text-shadow: 1px 1px 1px  rgb(0, 247, 255);    
+    color: #FF009A;
+    text-decoration: none;  
+    display: flex; 
+}
+.link:hover{    
+    color: rgb(0, 247, 255);
+    text-shadow: 1px 1px 1px #FF009A;
+    text-decoration: none;
+}
+.link-small{
+    
+    font-size: 18px;
+    text-shadow: 1px 1px 1px  rgb(0, 247, 255);    
+    color: #FF009A;
+    text-decoration: none;  
+    display: flex; 
+}
+.link-small:hover{    
+    color: rgb(0, 247, 255);
+    text-shadow: 1px 1px 1px #FF009A;
+    text-decoration: none;
+}
+form{
+    border-radius: 10px;
+    font-size: 25px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 10px 1% 10px 1%;
+    margin-left: 5px;
+    background-color:  rgb(234, 253, 253);
+    
+}
+
+label{
+    color: #FF009A;
+    
+}
+input{
+    border-color: #FF009A;
+}
+#logSenha{
+    margin-left: 7px;
+}
+#submitLog, #submitSig{
+    margin-left: 35%;
+    color: #FF009A;
+    background-color:  #fde6f3;
+}
+footer{
+    position: absolute;
+    width: 80%;
+    bottom: 0px;
+    background-color: #55289e ;
+    height: 100px;
+    clear: both;
+    border: 5px solid #291846;
+    padding: 0;
+    text-align: center;
+    padding: 5px
+}
+.footer-info{
+    color:  #FF7F30;
+    display: inline;    
+    padding: 0;
+}
+footer .right{
+    margin-right: 20%;
+}
+footer .left{
+    margin-left: 20px;
+}
+.table{   
+    background-color: #ffffff;
+    color:  #FF009A;
+    width: 500px;
+}
+.table tr th, .table tbody tr td{
+   max-width: 90px;
+   
+}
